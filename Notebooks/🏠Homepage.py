@@ -5,7 +5,7 @@ from pathlib import Path
 # Displaying image on sidebar
 # Displaying image on sidebar
 with st.sidebar:
-    st.image("car_steamlit.avif", width=254)
+    st.image("https://drive.google.com/file/d/1Z8lk-BWXwMX6Myjkl3xMHRCjKkV6bpbT/view?usp=sharing", width=254)
  
 
 # Page Configuration
