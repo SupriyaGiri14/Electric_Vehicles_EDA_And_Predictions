@@ -5,7 +5,7 @@ from pathlib import Path
 # Displaying image on sidebar
 # Displaying image on sidebar
 with st.sidebar:
-    st.image("https://github.com/SupriyaGiri14/Electric_Vehicles_EDA_And_Predictions/blob/main/images/car_steamlit.avif", width=254)
+    st.image("https://raw.githubusercontent.com/SupriyaGiri14/Electric_Vehicles_EDA_And_Predictions/refs/heads/main/images/car_steamlit.avif", width=254)
  
 
 # Page Configuration
