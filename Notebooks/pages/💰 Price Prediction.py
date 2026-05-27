@@ -15,7 +15,14 @@ st.set_page_config(
 )
 
 #import model
-model = joblib.load("https://github.com/SupriyaGiri14/Electric_Vehicles_EDA_And_Predictions/blob/main/Notebooks/ev_price_model.pkl")
+from pathlib import Path
+import joblib
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+model_path = BASE_DIR / "Notebooks" / "ev_price_model.pkl"
+
+model = joblib.load(model_path)
 
 # main title
 st.title("⚡EV Price Prediction⚡")
