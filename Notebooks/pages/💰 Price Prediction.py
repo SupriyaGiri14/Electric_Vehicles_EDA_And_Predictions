@@ -94,7 +94,10 @@ h1, h2, h3, p {
 
 
 st.sidebar.write("---")
-df = pd.read_csv("../Datasets/ev_market_2026.csv")
+csv_path = os.path.join(script_dir, '..', '..', 'Datasets', 'ev_market_2026.csv')
+
+# 3. Read the CSV
+df = pd.read_csv(csv_path)
 
 # -------------------------
 # USER INPUTS
