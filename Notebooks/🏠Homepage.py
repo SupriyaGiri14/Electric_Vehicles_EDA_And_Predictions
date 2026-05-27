@@ -1,10 +1,12 @@
 import streamlit as st
 import pandas as pd
+import os
 
 
 # Displaying image on sidebar
 with st.sidebar:
-    st.image("../images/car_steamlit.avif", width=254)
+    image_path = os.path.join(os.path.dirname(__file__), "..", "images", "car_streamlit.avif")  
+    st.image(image_path, width=254)
  
 
 # Page Configuration
