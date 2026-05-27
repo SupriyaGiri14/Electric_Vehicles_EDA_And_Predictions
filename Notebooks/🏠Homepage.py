@@ -3,12 +3,9 @@ import pandas as pd
 from pathlib import Path
 
 # Displaying image on sidebar
+# Displaying image on sidebar
 with st.sidebar:
-    BASE_DIR = Path(__file__).resolve().parent.parent
-    image_path = BASE_DIR / "images" / "car_streamlit.avif"
-
-    st.write("DEBUG PATH:", image_path)  # IMPORTANT for debugging
-    st.image(str(image_path), width=254)
+    st.image("car_steamlit.avif", width=254)
  
 
 # Page Configuration
