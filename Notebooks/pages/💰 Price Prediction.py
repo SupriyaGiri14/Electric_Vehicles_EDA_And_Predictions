@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib 
+import os
 
 #Displaying image on sidebar
 with st.sidebar:
@@ -13,8 +14,14 @@ st.set_page_config(
     layout="centered"
 )
 
-#import model
-model = joblib.load("ev_price_model.pkl")
+# Get the directory where this script resides
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the full path to the model file
+model_path = os.path.join(script_dir, "ev_price_model.pkl")
+
+# Load the model
+model = joblib.load(model_path)
 
 # main title
 st.title("⚡EV Price Prediction⚡")
