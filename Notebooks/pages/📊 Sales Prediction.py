@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 #import model
-sales_model = joblib.load("https://github.com/SupriyaGiri14/Electric_Vehicles_EDA_And_Predictions/blob/main/Notebooks/ev_sales_model.pkl")
+sales_model = joblib.load("https://github.com/SupriyaGiri14/Electric_Vehicles_EDA_And_Predictions/blob/main/Notebooks/pages/ev_sales_model.pkl")
 
 # main title
 st.title("⚡EV Sales Prediction⚡")
