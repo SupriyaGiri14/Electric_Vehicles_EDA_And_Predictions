@@ -5,7 +5,6 @@ import joblib
 #Displaying image on sidebar
 with st.sidebar:
     st.image("https://raw.githubusercontent.com/SupriyaGiri14/Electric_Vehicles_EDA_And_Predictions/refs/heads/main/images/car_steamlit.avif", width=254)
- 
 
 # Page Configuration
 st.set_page_config(
@@ -15,14 +14,7 @@ st.set_page_config(
 )
 
 #import model
-from pathlib import Path
-import joblib
-
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
-
-model_path = BASE_DIR / "Notebooks" / "ev_price_model.pkl"
-
-model = joblib.load(model_path)
+model = joblib.load("ev_price_model.pkl")
 
 # main title
 st.title("⚡EV Price Prediction⚡")
