@@ -190,3 +190,34 @@ if st.button("Predict Price"):
 
     st.success(f"Predicted EV Price for {brand} with above specifications: ${prediction:,.2f}")
     st.warning("Disclaimer: This tool is for educational purposes only. It provides estimated EV price predictions based on a ML model and available data, it does not represent real-world manufacturer pricing.")
+    st.subheader("🤖 Machine Learning Model Information")
+
+    st.markdown("""
+**Machine Learning model** is used to predict 💰 **Electric Vehicle Prices**
+
+
+### 🚀 Model Used
+✅ **XGBoost Regressor (Extreme Gradient Boosting)**
+
+XGBoost is a highly efficient and powerful machine learning algorithm based on gradient boosting. It builds multiple decision trees sequentially, where each new tree corrects the errors of the previous ones.
+
+### 📌 Features Used for Prediction
+The model analyzes various EV specifications such as:
+
+- 🚗 Brand
+- 🔋 Battery Capacity
+- ⚡ Charging Speed
+- 🛣️ Range
+- 🏎️ Horsepower
+- 🚘 Drive Type
+- 🌍 Country of Origin   
+- 🏷️ Market Segment
+
+### ⚙️ Machine Learning Workflow
+1. Data Preprocessing  
+2. Feature Scaling/Encoding  
+3. Model Training  
+4. Prediction Generation  
+
+### 📖 R2 Score : 0.9549
+""")

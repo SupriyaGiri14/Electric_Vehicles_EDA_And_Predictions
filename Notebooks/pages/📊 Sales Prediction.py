@@ -222,3 +222,34 @@ if st.button("Predict Sales"):
 
     st.success(f"Predicted Annual Sales for {brand} in year {year} for above specifications: {prediction:,.0f} units")
     st.warning("Disclaimer: This tool is for educational purposes only. It provides estimated EV Sales predictions based on a ML model and available data, it does not represent real-world manufacturer pricing.")
+    st.subheader("🤖 Machine Learning Model Information")
+
+    st.markdown("""
+**Machine Learning model** is used to predict 💰 **Electric Vehicles Sales**
+
+
+### 🚀 Model Used
+✅ **Random Forest Regressor**
+
+Random Forest is a supervised machine learning algorithm that combines multiple decision trees to make accurate and reliable predictions.
+
+### 📌 Features Used for Prediction
+The model analyzes various EV specifications such as:
+
+- 🚗 Brand
+- 🚘 Model 
+- 🛣️ Range
+- 🏎️ Horsepower
+- 🚘 Drive Type
+- 🌍 Country of Origin  
+- 💰 Price (USD)
+- 📅 Year  
+
+### ⚙️ Machine Learning Workflow
+1. Data Preprocessing  
+2. Feature Scaling/Encoding  
+3. Model Training  
+4. Prediction Generation  
+
+### 📖 R2 Score : 0.8846
+""")
