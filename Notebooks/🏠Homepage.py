@@ -107,6 +107,7 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
+st.write("---")
 
 st.markdown("<div class='section-title'><span style='font-size:32px'>🎯</span>Objective</div>", unsafe_allow_html=True)
 st.markdown("""
@@ -116,9 +117,9 @@ The goal of this project is to demonstrate how data from the EV industry can be 
 ⚡ Market growth patterns<br>
 ⚡ Pricing variations across segments<br>
 ⚡ Key performance factors influencing EV adoption
-    
-    
     """, unsafe_allow_html=True)
+
+st.write("---")
 
 st.markdown("<div class='section-title'><span style='font-size:32px'>🛠️</span>Tools & Technologies</div>", unsafe_allow_html=True)
 st.markdown("""
@@ -129,6 +130,10 @@ st.markdown("""
 ⚡Kaggle Dataset: Electric Vehicle Market and Pricing Dataset (2026)
     </div>
     """, unsafe_allow_html=True)
+
+st.markdown(""" 
+👉 [Click here to view Dataset](https://www.kaggle.com/datasets/patelris/electric-vehicle-market-and-pricing-dataset-2026)
+""")
 
 st.write("---")
 
