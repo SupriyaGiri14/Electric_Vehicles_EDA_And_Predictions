@@ -1,12 +1,14 @@
 import streamlit as st
 import pandas as pd
-import os
-
+from pathlib import Path
 
 # Displaying image on sidebar
 with st.sidebar:
-    image_path = os.path.join(os.path.dirname(__file__), "..", "images", "car_streamlit.avif")  
-    st.image(image_path, width=254)
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    image_path = BASE_DIR / "images" / "car_streamlit.avif"
+
+    st.write("DEBUG PATH:", image_path)  # IMPORTANT for debugging
+    st.image(str(image_path), width=254)
  
 
 # Page Configuration
