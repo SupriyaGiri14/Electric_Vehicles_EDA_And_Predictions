@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 #import model
-model = joblib.load("ev_price_model.pkl")
+model = joblib.load("https://github.com/SupriyaGiri14/Electric_Vehicles_EDA_And_Predictions/blob/main/Notebooks/ev_price_model.pkl")
 
 # main title
 st.title("⚡EV Price Prediction⚡")
