@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib 
+import os
 
 #Displaying image on sidebar
 with st.sidebar:
@@ -14,8 +15,14 @@ st.set_page_config(
     layout="centered"
 )
 
-#import model
-sales_model = joblib.load("https://github.com/SupriyaGiri14/Electric_Vehicles_EDA_And_Predictions/blob/main/Notebooks/pages/ev_sales_model.pkl")
+# Get the directory where this script resides
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the full path to the model file
+model_path = os.path.join(script_dir, "ev_sales_model.pkl")
+
+# Load the model
+sales_model = joblib.load(model_path)
 
 # main title
 st.title("⚡EV Sales Prediction⚡")
@@ -101,9 +108,10 @@ st.sidebar.write("---")
 # Prediction
 
 
-df = pd.read_csv("../Datasets/ev_market_2026.csv")
+csv_path = os.path.join(script_dir, '..', '..', 'Datasets', 'ev_market_2026.csv')
 
-
+# 3. Read the CSV
+df = pd.read_csv(csv_path)
 # -------------------------
 # BRAND (dynamic)
 # -------------------------
