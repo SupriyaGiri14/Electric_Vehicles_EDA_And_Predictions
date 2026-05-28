@@ -209,7 +209,7 @@ if st.button("Predict Sales"):
 
     prediction = sales_model.predict(input_df)[0]
 
-    st.success(f"Predicted Annual Sales for {brand} in year {year} for above specifications: {prediction:,.0f} units")
+    st.success(f"Predicted Annual Sales for {brand} for above specifications: {prediction:,.0f} units")
     st.warning("Disclaimer: This tool is for educational purposes only. It provides estimated EV Sales predictions based on a ML model and available data, it does not represent real-world manufacturer pricing.")
     st.subheader("🤖 Machine Learning Model Information")
 
