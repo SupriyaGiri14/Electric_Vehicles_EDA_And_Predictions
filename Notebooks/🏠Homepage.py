@@ -129,6 +129,17 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
+st.markdown("<div class='section-title'><span style='font-size:32px'>💾</span>Dataset</div>", unsafe_allow_html=True)
+st.markdown("""
+    <div style="font-size: 18px; line-height: 1.6;">
+⚡Dataset Size: 2,000 EVTime Period: 2020-2026<br>
+⚡ models/variants<br>
+⚡Geographic Coverage: Global (20 major EV manufacturers)<br>
+⚡comprehensive pricing, specifications, and sales data.
+    </div>
+    """, unsafe_allow_html=True)
+
+
 st.markdown(""" 
 👉 [Click here to view Dataset](https://www.kaggle.com/datasets/patelris/electric-vehicle-market-and-pricing-dataset-2026)
 """)
