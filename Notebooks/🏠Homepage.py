@@ -66,7 +66,7 @@ h1, h2, h3, p {
 
 /* Section title */
 .section-title {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     margin-top: 35px;
     margin-bottom: 15px;
@@ -97,7 +97,7 @@ st.sidebar.write("---")
 # PAGE ROUTING
 # ------------------------------
 
-st.markdown("<div class='section-title'><span style='font-size:26px'>📊 </span>Introduction</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'><span style='font-size:24px'>📊 </span>Introduction</div>", unsafe_allow_html=True)
 st.markdown("""
     <div style="font-size: 18px; line-height: 1.6;">
     The electric vehicle (EV) industry is evolving rapidly, driven by advancements in 
@@ -107,7 +107,7 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown("<div class='section-title'><span style='font-size:32px'>🎯</span>Objective</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'><span style='font-size:30px'>🎯</span>Objective</div>", unsafe_allow_html=True)
 st.markdown("""
     <div style="font-size: 18px; line-height: 1.6;">
 The goal of this project is to demonstrate how data from the EV industry can be transformed into an interactive analytical tool that helps users understand:
@@ -117,7 +117,7 @@ The goal of this project is to demonstrate how data from the EV industry can be 
 ⚡ Key performance factors influencing EV adoption
     """, unsafe_allow_html=True)
 
-st.markdown("<div class='section-title'><span style='font-size:32px'>🛠️</span>Tools & Technologies</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'><span style='font-size:30px'>🛠️</span>Tools & Technologies</div>", unsafe_allow_html=True)
 st.markdown("""
     <div style="font-size: 18px; line-height: 1.6;">
 ⚡Python (Pandas, NumPy)<br>
@@ -127,7 +127,7 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown("<div class='section-title'><span style='font-size:30px'>💾</span>Dataset</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'><span style='font-size:28px'>💾</span>Dataset</div>", unsafe_allow_html=True)
 st.markdown("""
     <div style="font-size: 18px; line-height: 1.6;">
 ⚡Dataset Size: 2,000 EVTime Period: 2020-2026<br>
@@ -137,7 +137,7 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-
+st.markdown("<div class='section-title'><span style='font-size:28px'>📊</span>Dashboard</div>", unsafe_allow_html=True)
 st.markdown(""" 
 👉 [Click here to view Dataset](https://www.kaggle.com/datasets/patelris/electric-vehicle-market-and-pricing-dataset-2026)
 """)
