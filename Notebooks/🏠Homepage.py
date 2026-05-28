@@ -106,7 +106,6 @@ st.markdown("""
     performance, price, range or something deeper like brand power?
     </div>
     """, unsafe_allow_html=True)
-st.write("---")
 
 st.markdown("<div class='section-title'><span style='font-size:32px'>🎯</span>Objective</div>", unsafe_allow_html=True)
 st.markdown("""
@@ -117,7 +116,6 @@ The goal of this project is to demonstrate how data from the EV industry can be 
 ⚡ Pricing variations across segments<br>
 ⚡ Key performance factors influencing EV adoption
     """, unsafe_allow_html=True)
-st.write("---")
 
 st.markdown("<div class='section-title'><span style='font-size:32px'>🛠️</span>Tools & Technologies</div>", unsafe_allow_html=True)
 st.markdown("""
@@ -129,7 +127,7 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown("<div class='section-title'><span style='font-size:32px'>💾</span>Dataset</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'><span style='font-size:30px'>💾</span>Dataset</div>", unsafe_allow_html=True)
 st.markdown("""
     <div style="font-size: 18px; line-height: 1.6;">
 ⚡Dataset Size: 2,000 EVTime Period: 2020-2026<br>
@@ -143,14 +141,12 @@ st.markdown("""
 st.markdown(""" 
 👉 [Click here to view Dataset](https://www.kaggle.com/datasets/patelris/electric-vehicle-market-and-pricing-dataset-2026)
 """)
-st.write("---")
 
 st.markdown("""
 🔗 Power BI Dashboard:  
 👉 [Click here to view dashboard](https://app.powerbi.com/groups/me/reports/23963ba2-b909-4f82-829b-1ad909e70ffc/30e231deff780b246496?experience=power-bi&clientSideAuth=0)
 """)
 
-st.write("---")
 
 st.warning(
         "⚠️ Disclaimer: This app is for educational purposes only. "
