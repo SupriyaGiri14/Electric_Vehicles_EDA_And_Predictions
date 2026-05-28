@@ -120,16 +120,17 @@ The goal of this project is to demonstrate how data from the EV industry can be 
 st.markdown("<div class='section-title'><span style='font-size:30px'>🛠️</span>Tools & Technologies</div>", unsafe_allow_html=True)
 st.markdown("""
     <div style="font-size: 18px; line-height: 1.6;">
-⚡Python (Pandas, NumPy)<br>
+⚡Python <br>
 ⚡Streamlit<br>
 ⚡Power BI<br>
-⚡Kaggle Dataset: Electric Vehicle Market and Pricing Dataset (2026)
+
     </div>
     """, unsafe_allow_html=True)
 
 st.markdown("<div class='section-title'><span style='font-size:28px'>💾</span>Dataset</div>", unsafe_allow_html=True)
 st.markdown("""
     <div style="font-size: 18px; line-height: 1.6;">
+⚡Kaggle Dataset: Electric Vehicle Market and Pricing Dataset (2026)s
 ⚡Dataset Size: 2,000 EVTime Period: 2020-2026<br>
 ⚡ models/variants<br>
 ⚡Geographic Coverage: Global (20 major EV manufacturers)<br>
