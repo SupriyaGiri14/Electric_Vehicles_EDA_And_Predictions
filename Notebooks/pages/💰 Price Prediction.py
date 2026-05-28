@@ -120,6 +120,12 @@ country_of_origin = st.selectbox(
     sorted(df["country_of_origin"].dropna().unique())
 )
 
+year = st.slider(
+    "Year",
+    min_value=2027,
+    value=2030
+)
+
 # -------------------------
 # AUTO-FILL BASE DATA
 # -------------------------
@@ -155,6 +161,7 @@ mult = drive_multiplier.get(drive_type, 1.0)
 
 range_miles *= mult
 horsepower *= mult
+
 
 # -------------------------
 # DISPLAY
