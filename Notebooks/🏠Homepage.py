@@ -126,7 +126,7 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown("<div class='section-title'><span style='font-size:28px'>💾</span>Dataset</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'><span style='font-size:26px'>💾</span>Dataset</div>", unsafe_allow_html=True)
 st.markdown("""
     <div style="font-size: 18px; line-height: 1.6;">
 ⚡Kaggle Dataset: Electric Vehicle Market and Pricing Dataset (2026)s
@@ -141,7 +141,7 @@ st.markdown("""
 👉 [Click here to view Dataset](https://www.kaggle.com/datasets/patelris/electric-vehicle-market-and-pricing-dataset-2026)
 """)
 
-st.markdown("<div class='section-title'><span style='font-size:28px'>📊</span>Dashboard</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'><span style='font-size:24px'>📊</span>Dashboard</div>", unsafe_allow_html=True)
 
 st.markdown("""
 🔗 Power BI Dashboard:  
