@@ -123,7 +123,6 @@ st.markdown("""
 ⚡Python <br>
 ⚡Streamlit<br>
 ⚡Power BI<br>
-
     </div>
     """, unsafe_allow_html=True)
 
