@@ -49,10 +49,10 @@ This project uses a Kaggle dataset:
 ## 📈 Visualization
 
 - 📊 **Power BI Dashboard:**  
-[  https://your-dashboard-link-here](https://app.powerbi.com/groups/me/reports/23963ba2-b909-4f82-829b-1ad909e70ffc/a94408d223970d2b0dda?experience=power-bi&clientSideAuth=0)
+[  https://dashboard-link-here](https://app.powerbi.com/groups/me/reports/23963ba2-b909-4f82-829b-1ad909e70ffc/a94408d223970d2b0dda?experience=power-bi&clientSideAuth=0)
 
 - 📂 **Dataset Source:**  
- [ https://your-dataset-link-here](https://www.kaggle.com/datasets/patelris/electric-vehicle-market-and-pricing-dataset-2026)
+ [ https://dataset-link-here](https://www.kaggle.com/datasets/patelris/electric-vehicle-market-and-pricing-dataset-2026)
 
 ---
 
