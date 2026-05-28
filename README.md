@@ -1,19 +1,77 @@
-# Electric_Car_Project
+# Electric_Car_Project ⚡🚗
 
-📊 Introduction
-The electric vehicle (EV) industry is evolving rapidly, driven by advancements in battery technology, shifting consumer preferences, and increasing competition among global manufacturers. But what truly defines success in this market? Is it performance, price, range or something deeper like brand power?
-🎯Objective
-The goal of this project is to demonstrate how data from the EV industry can be transformed into an interactive analytical tool that helps users understand:
-⚡ Market growth patterns
-⚡ Pricing variations across segments
-⚡ Key performance factors influencing EV adoption
+## 📌 Project Overview
+This repository contains a data analysis project focused on the **Electric Vehicle (EV) market and pricing trends**.
 
-🛠️Tools & Technologies
-⚡Python (Pandas, NumPy)
-⚡Streamlit
-⚡Power BI
-⚡Kaggle Dataset: Electric Vehicle Market and Pricing Dataset (2026)
-👉 Click here to view Dataset
+The goal is to understand how factors such as price, battery capacity, and range influence EV adoption, and to identify key market patterns using data analysis and visualization techniques.
 
-🔗 Power BI Dashboard:
-👉 Click here to view dashboard
+The project combines **Python-based analysis** with **Power BI dashboards** to generate actionable insights.
+
+---
+
+## 📊 The Data
+This project uses a Kaggle dataset:
+
+- **Electric Vehicle Market Data**
+  - Vehicle type, manufacturer, price, and specifications
+
+- **EV Pricing Dataset (2026)**
+  - Pricing variations across EV segments and brands
+
+- **Market Trends Data**
+  - Adoption patterns and growth trends in the EV industry
+
+---
+
+## 🚀 Key Features
+
+### 🔹 Data Cleaning & Preprocessing
+- Handling missing values
+- Standardizing formats
+- Preparing dataset for analysis
+
+### 🔹 Exploratory Data Analysis (EDA)
+- EV price distribution
+- Market segmentation analysis
+- Relationship between range, battery, and price
+
+### 🔹 Data Visualization
+- Power BI interactive dashboards
+- Python (Pandas, NumPy) visual insights
+
+### 🔹 Business Insights
+- Identification of high-demand EV segments
+- Key factors influencing EV pricing
+- Market growth patterns and adoption trends
+
+---
+
+## 📈 Visualization
+
+- 📊 **Power BI Dashboard:**  
+[  https://your-dashboard-link-here](https://app.powerbi.com/groups/me/reports/23963ba2-b909-4f82-829b-1ad909e70ffc/a94408d223970d2b0dda?experience=power-bi&clientSideAuth=0)
+
+- 📂 **Dataset Source:**  
+ [ https://your-dataset-link-here](https://www.kaggle.com/datasets/patelris/electric-vehicle-market-and-pricing-dataset-2026)
+
+---
+
+## 🛠️ Tools & Technologies
+- Python (Pandas, NumPy)
+- Power BI
+- Streamlit
+- Jupyter Notebook
+- Kaggle Dataset
+
+---
+
+## 📌 Key Insights
+- EV pricing varies significantly across brands and segments  
+- Battery capacity, range(miles) and rating is a major factor influencing consumer choice  
+- Premium market EVs dominate market demand  
+- Rapid EV market growth driven by battery innovation  
+
+---
+
+## ⭐ Show Your Support
+If you like this project, feel free to ⭐ the repository!
