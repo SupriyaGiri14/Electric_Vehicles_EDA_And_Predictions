@@ -145,16 +145,6 @@ drive_type = st.selectbox(
 )
 
 # -------------------------
-# YEAR
-# -------------------------
-year = st.slider(
-    "Year",
-    min_value=2027,
-    max_value=int(df["year"].max()),
-    value=2030
-)
-
-# -------------------------
 # FILTER DATASET (core logic)
 # -------------------------
 match = df[
@@ -210,7 +200,6 @@ if st.button("Predict Sales"):
     input_df = pd.DataFrame([{
         "brand": brand,
         "model": model,
-        "year": year,
         "price_usd": price_usd,
         "range_miles": range_miles,
         "horsepower": horsepower,
@@ -243,7 +232,6 @@ The model analyzes various EV specifications such as:
 - 🚘 Drive Type
 - 🌍 Country of Origin  
 - 💰 Price (USD)
-- 📅 Year  
 
 ### ⚙️ Machine Learning Workflow
 1. Data Preprocessing  
