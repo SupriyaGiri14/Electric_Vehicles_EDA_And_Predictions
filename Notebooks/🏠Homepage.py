@@ -129,11 +129,11 @@ st.markdown("""
 st.markdown("<div class='section-title'><span style='font-size:26px'>💾</span>Dataset</div>", unsafe_allow_html=True)
 st.markdown("""
     <div style="font-size: 18px; line-height: 1.6;">
-⚡Kaggle Dataset: Electric Vehicle Market and Pricing Dataset (2026)s
-⚡Dataset Size: 2,000 EVTime Period: 2020-2026<br>
-⚡ models/variants<br>
+⚡Kaggle Dataset: Electric Vehicle Market and Pricing Dataset (2026)<br>
+⚡Dataset Size: 2,000 EV models/variants<br>
+⚡Time Period: 2020-2026<br>
 ⚡Geographic Coverage: Global (20 major EV manufacturers)<br>
-⚡comprehensive pricing, specifications, and sales data.
+⚡comprehensive pricing, specifications, and sales data
     </div>
     """, unsafe_allow_html=True)
 
