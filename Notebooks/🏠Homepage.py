@@ -137,10 +137,11 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown("<div class='section-title'><span style='font-size:28px'>📊</span>Dashboard</div>", unsafe_allow_html=True)
 st.markdown(""" 
 👉 [Click here to view Dataset](https://www.kaggle.com/datasets/patelris/electric-vehicle-market-and-pricing-dataset-2026)
 """)
+
+st.markdown("<div class='section-title'><span style='font-size:28px'>📊</span>Dashboard</div>", unsafe_allow_html=True)
 
 st.markdown("""
 🔗 Power BI Dashboard:  
