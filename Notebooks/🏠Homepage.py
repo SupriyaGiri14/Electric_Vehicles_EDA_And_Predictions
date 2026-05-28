@@ -148,6 +148,7 @@ st.markdown("""
 👉 [Click here to view dashboard](https://app.powerbi.com/groups/me/reports/23963ba2-b909-4f82-829b-1ad909e70ffc/30e231deff780b246496?experience=power-bi&clientSideAuth=0)
 """)
 
+st.write("---")
 
 st.warning(
         "⚠️ Disclaimer: This app is for educational purposes only. "
